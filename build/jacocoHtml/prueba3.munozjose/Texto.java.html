@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Texto.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">prueba3-munozjose</a> &gt; <a href="index.source.html" class="el_package">prueba3.munozjose</a> &gt; <span class="el_source">Texto.java</span></div><h1>Texto.java</h1><pre class="source lang-java linenums">package prueba3.munozjose;
+
+
+<span class="fc" id="L4">public class Texto {</span>
+
+    public static String minusculas(String texto) {
+<span class="fc" id="L7">        return texto.toLowerCase();</span>
+    }
+
+    
+    public static String mayusculas(String texto) {
+<span class="fc" id="L12">        return texto.toUpperCase();</span>
+    }
+
+    
+    public static String textoInvertido(String texto) {
+<span class="fc" id="L17">        StringBuilder resultado = new StringBuilder();</span>
+        
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        for (int i=texto.length()-1; i&gt;=0; i--) {</span>
+<span class="fc" id="L20">            resultado.append(texto.charAt(i));</span>
+        }
+<span class="fc" id="L22">        return resultado.toString();</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

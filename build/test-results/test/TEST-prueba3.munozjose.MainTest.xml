@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="prueba3.munozjose.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-02-17T19:55:19" hostname="lenovo" time="0.005">
+  <properties/>
+  <testcase name="testMain" classname="prueba3.munozjose.MainTest" time="0.005"/>
+  <system-out><![CDATA[2.5
+1.6666666666666667
+buenas tardes
+BUENAS TARDES
+sedrat saneuB
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

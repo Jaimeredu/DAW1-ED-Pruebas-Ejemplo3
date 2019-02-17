@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="prueba3.munozjose.TextoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-02-17T19:55:19" hostname="lenovo" time="0.003">
+  <properties/>
+  <testcase name="testMayusculas" classname="prueba3.munozjose.TextoTest" time="0.001"/>
+  <testcase name="testMinusculas" classname="prueba3.munozjose.TextoTest" time="0.0"/>
+  <testcase name="testTextoInvertido" classname="prueba3.munozjose.TextoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
