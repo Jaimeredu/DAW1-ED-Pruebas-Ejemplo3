@@ -53,6 +53,13 @@ Las clases de prueba son:
 
 Se ha probado también el constructor por defecto, con la finalidad de que el informe de cobertura fuera del 100%.
 
+### Ejecución de pruebas
+
+Para ejecutar las pruebas sobre el código, ejecutaremos en el terminal de texto:
+
+```
+gradle  test
+```
 
 ### Informe de cobertura
 
